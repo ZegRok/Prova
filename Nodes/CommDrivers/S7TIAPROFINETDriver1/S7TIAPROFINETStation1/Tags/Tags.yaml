@@ -1,0 +1,126 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: PLC
+  Type: TagStructure
+  Children:
+  - Name: DB10
+    Type: TagStructure
+    Children:
+    - Name: MachineParameter
+      Type: TagStructure
+      Children:
+      - Name: CounterArray
+        Type: TagStructureArray
+        Children:
+        - Name: ArrayDimensions
+          Type: PropertyType
+          DataType: UInt32
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+          Value: [5]
+        - Name: 0
+          Type: TagStructure
+          Children:
+          - Name: Current
+            Type: S7TiaProfinetTag
+            DataType: UInt32
+            Value: 0
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "PLC.Blocks.DB10.MachineParameter.CounterArray[0].Current"
+          - Name: StartValue
+            Type: S7TiaProfinetTag
+            DataType: UInt32
+            Value: 0
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "PLC.Blocks.DB10.MachineParameter.CounterArray[0].StartValue"
+        - Name: 1
+          Type: TagStructure
+          Children:
+          - Name: Current
+            Type: S7TiaProfinetTag
+            DataType: UInt32
+            Value: 0
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "PLC.Blocks.DB10.MachineParameter.CounterArray[1].Current"
+          - Name: StartValue
+            Type: S7TiaProfinetTag
+            DataType: UInt32
+            Value: 0
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "PLC.Blocks.DB10.MachineParameter.CounterArray[1].StartValue"
+        - Name: 2
+          Type: TagStructure
+          Children:
+          - Name: Current
+            Type: S7TiaProfinetTag
+            DataType: UInt32
+            Value: 0
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "PLC.Blocks.DB10.MachineParameter.CounterArray[2].Current"
+          - Name: StartValue
+            Type: S7TiaProfinetTag
+            DataType: UInt32
+            Value: 0
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "PLC.Blocks.DB10.MachineParameter.CounterArray[2].StartValue"
+        - Name: 3
+          Type: TagStructure
+          Children:
+          - Name: Current
+            Type: S7TiaProfinetTag
+            DataType: UInt32
+            Value: 0
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "PLC.Blocks.DB10.MachineParameter.CounterArray[3].Current"
+          - Name: StartValue
+            Type: S7TiaProfinetTag
+            DataType: UInt32
+            Value: 0
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "PLC.Blocks.DB10.MachineParameter.CounterArray[3].StartValue"
+        - Name: 4
+          Type: TagStructure
+          Children:
+          - Name: Current
+            Type: S7TiaProfinetTag
+            DataType: UInt32
+            Value: 0
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "PLC.Blocks.DB10.MachineParameter.CounterArray[4].Current"
+          - Name: StartValue
+            Type: S7TiaProfinetTag
+            DataType: UInt32
+            Value: 0
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "PLC.Blocks.DB10.MachineParameter.CounterArray[4].StartValue"

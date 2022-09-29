@@ -1,0 +1,18 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+  ValueRank: 2
+  ArrayDimensions: [3,3]
+  Value: 
+   {
+    "Type": 6,
+    "Dimensions": [3,3],
+    "Body": [
+     0,0,0,
+     0,0,0,
+     0,0,0
+    ]
+   }
