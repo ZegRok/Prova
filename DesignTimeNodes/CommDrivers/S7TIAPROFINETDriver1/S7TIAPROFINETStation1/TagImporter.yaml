@@ -1,6 +1,6 @@
 Name: TagImporter
 Type: S7TiaProfinetTagImporter
-OwnerId: ns=2;g=a6b99f0e7d4a3312595ffc26898011cd
+OwnerId: ns=2;g=413e0397dcca5b5786ef7a986d5c7eb4
 Children:
 - Name: FilePath
   Type: BaseDataVariableType
